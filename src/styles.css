@@ -1,0 +1,39 @@
+#cat-face {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: face;
+}
+
+@keyframes face {
+  to {
+    transform: translate(10px, 5px);
+  }
+}
+
+#right-front-leg {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: tail;
+}
+
+@keyframes tail {
+  to {
+    transform: translate(7px, 3px);
+  }
+}
+
+#github {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-name: github;
+}
+
+@keyframes github {
+  to {
+    transform: translate(7px, 3px);
+  }
+}
